@@ -1,0 +1,16 @@
+.confirmbooking {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    margin-top: 10rem;
+}
+
+.confirmbooking h2,
+.confirmbooking p{
+    text-align: center;
+    font-family: cursive;
+    letter-spacing: 2px;
+    font-weight: 500;
+}

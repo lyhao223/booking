@@ -1,0 +1,49 @@
+
+.bookingform__form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    margin-top: 25rem;
+}
+
+.bookingform__form .bookingform__spaceform{
+    display: grid;
+    max-width: 200;
+    gap: 20;
+}
+
+.bookingform__form .bookingform__spaceform label{
+    padding-top: 2em;
+    margin-bottom: 1em ;
+
+    font-family: cursive;
+    font-size: large;
+}
+
+.bookingform__form .bookingform__spaceform input[type=submit]{
+    margin: 2em 0 2em 0;
+    width: auto;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.bookingform__form .bookingform__spaceform input{
+    width: 200px;
+    padding: 1em;
+}
+
+.bookingform__form .bookingform__spaceform select{
+    width: 230px;
+    padding: 1em;
+}
+
+.bookingform__form .bookingform__spaceform input,
+.bookingform__form .bookingform__spaceform select{
+    font-family: cursive;
+    font-size: small;
+    font-weight: bold;
+}
